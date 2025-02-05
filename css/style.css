@@ -14,3 +14,17 @@
 
 /**********************Header*************************/
 
+header{
+    background-color: #1d1c1c;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+header img{
+    width: 20%;
+}
