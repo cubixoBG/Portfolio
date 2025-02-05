@@ -14,17 +14,26 @@
 
 /**********************Header*************************/
 
-header{
+header {
     background-color: #1d1c1c;
 }
 
-header div{
+header div {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
 }
 
-header img{
-    width: 20%;
+.logo a{
+    margin: 2% 6% 2% 6%;
+    width: 36%;
+}
+
+.logo img{
+    width: 100%;
+    transition: 0.8s;
+}
+
+.logo img:hover{
+    transform: scale(0.92);
 }
