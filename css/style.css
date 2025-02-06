@@ -3,8 +3,10 @@
     padding: 0;
 }
 
-/* @font-face {
-} */
+@font-face {
+    font-family: 'erasITC';
+    src: url('../fonts/eras-itc-bold.ttf') format('truetype');
+}
 
 .flex-center {
     width: 100%;
@@ -15,7 +17,7 @@
 /**********************Header*************************/
 
 header {
-    background-color: #1d1c1c;
+    background-color: #141414;
 }
 
 header div {
@@ -25,15 +27,59 @@ header div {
 }
 
 .logo a{
-    margin: 2% 6% 2% 6%;
-    width: 36%;
+    margin: 2% 8% 2% 8%;
+    width: 32%;
 }
 
 .logo img{
     width: 100%;
-    transition: 0.8s;
+    transition: 0.5s ease-in-out;
 }
 
 .logo img:hover{
     transform: scale(0.92);
+}
+
+nav{
+    width: 30%;
+    margin: 2% 6% 2% 6%;
+}
+
+nav li::after {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 2px;
+    background: #076633;
+    transform: scale(0);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav li:hover::after {
+    transform: scale(1);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav li{
+    font-family: 'erasITC';
+    width: 100%;
+    text-align: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: all, 0.5s;
+}
+
+nav a:hover{
+    color: #076633;
+    margin-left: 12%;
 }

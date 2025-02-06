@@ -6,7 +6,7 @@
         <ul>
             <li><a href="index.php">Accueil</a></li>
             <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="../img/cv.pdf">Mon CV</a></li>
+            <li><a href="../img/cv.pdf" target="_blank">Mon CV</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
