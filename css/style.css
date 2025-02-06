@@ -48,15 +48,24 @@ nav{
 nav li::after {
     content: '';
     display: inline-block;
-    width: 100%;
+    width: 80%;
     height: 2px;
     background: #076633;
     transform: scale(0);
     transition: transform 0.3s ease-in-out;
 }
 
+#headerProject::after{
+    width: 100%;
+}
+
 nav li:hover::after {
     transform: scale(1);
+    margin-left: 14%;
+}
+
+#headerProject:hover::after{
+    margin-left: 6%;
 }
 
 nav ul{
@@ -64,6 +73,7 @@ nav ul{
     justify-content: space-between;
     align-items: center;
     list-style: none;
+    margin-top: 2%;
 }
 
 nav li{
