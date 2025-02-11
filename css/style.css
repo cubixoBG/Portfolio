@@ -4,8 +4,22 @@
 }
 
 @font-face {
-    font-family: 'erasITC';
+    font-family: 'erasBOLD';
     src: url('../fonts/eras-itc-bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'erasMID';
+    src: url('../fonts/ITCErasStd-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'erasDEMI';
+    src: url("../fonts/ITCErasStd-Demi.ttf") format('truetype');
+}
+
+span {
+    color: #076633;
 }
 
 .flex-center {
@@ -14,10 +28,38 @@
     justify-content: center;
 }
 
+/**********Animations**********/
+
+@keyframes reveal {
+    from {
+        opacity: 0;
+        transform: scale(0.69);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+    
+}
+
 /**********************Header*************************/
 
 header {
     background-color: #141414;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 
 header div {
@@ -77,7 +119,7 @@ nav ul{
 }
 
 nav li{
-    font-family: 'erasITC';
+    font-family: 'erasBOLD';
     width: 100%;
     text-align: center;
 }
@@ -96,3 +138,112 @@ nav a:hover{
 
 /**********************Main Index*************************/
 
+#topIndex{
+    background-image: url('../img/code.webp');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+    color: white;
+}
+
+#topTitleIndex{
+    background-color: rgba(0, 0, 0, 0.86);
+    height: 100%;
+}
+
+#topIndex h1, #topIndex h2, #topIndex p, #btnCVtop{
+    filter: brightness(1.69);
+    animation: reveal linear 2s;
+}
+
+#topIndex h1{
+    font-family: 'erasBOLD';
+    font-size: 3.2em;
+    padding: 16% 0 0 6%;
+}
+
+#topIndex h2{
+    font-family: 'erasBOLD';
+    font-size: 4em;
+    padding: 0 0 2% 6%;
+}
+
+#topIndex p{
+    font-family: 'erasDEMI';
+    font-size: 2.2em;
+    padding: 0 0 2% 6%;
+}
+
+#nbAnnee p{
+    font-size: 1.4em;
+}
+
+#nbAnnee span{
+    font-size: 2em;
+}
+
+#btnCVtop{
+    margin: 6% 0 0 11%;
+}
+
+#btnCVtop a{
+    font-family: 'erasBOLD';
+    font-size: 1.2em;
+    border: none;
+    padding: 1% 1.6%;
+    background-color: #076633;
+    transition: 0.5s ease-in-out;
+    border-radius: 16px;
+    width: 4%;
+    color: white;
+    text-decoration: none;
+}
+
+#btnCVtop a:hover{
+    background-color: #0d9b4f;
+    margin-left: 1%;
+}
+
+/****************Défilement infini de logos*******************/
+
+#logoSlider{
+    overflow: hidden;
+    background: #141414;
+    white-space: nowrap;
+    padding: 1.2% 0;
+    position: relative;
+}
+
+#logoSlider:before, #logoSlider:after{
+    position: absolute;
+    top: 0;
+    width: 500px;
+    height: 100%;
+    content: '';
+    z-index: 2;
+}
+
+#logoSlider:before{
+    left: 0;
+    background: linear-gradient(to right, #141414, transparent);
+}
+
+#logoSlider:after{
+    right: 0;
+    background: linear-gradient(to left, #141414, transparent);
+}
+
+#logo-slide{
+    animation: 10s slide infinite linear;
+    display: inline-block;
+}
+
+#logo-slide img{
+    height: 69px;
+    margin: 0 36px;
+}

@@ -1,6 +1,6 @@
 <div>
     <div class="logo">
-        <a href="#"><img src="../img/logo_long.webp" alt="logo"></a>
+        <a href="Index.php"><img src="../img/logo_long.webp" alt="logo"></a>
     </div>
     <nav>
         <ul>
