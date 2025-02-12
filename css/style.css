@@ -239,7 +239,7 @@ nav a:hover{
 }
 
 #logo-slide{
-    animation: 10s slide infinite linear;
+    animation: 30s slide infinite linear;
     display: inline-block;
 }
 

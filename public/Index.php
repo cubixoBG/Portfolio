@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <?php html_parts('header') ?>
+        <?php html_parts('header')?>
     </header>
 
     <main>
