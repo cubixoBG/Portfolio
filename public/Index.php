@@ -16,10 +16,11 @@
 
 <body>
     <header>
-        <?php html_parts('header')?>
+        <?php html_parts('header') ?>
     </header>
 
     <main>
+        <!-- Section de présentation / haut de page  -->
 
         <div id="topIndex">
             <div id="topTitleIndex">
@@ -29,7 +30,8 @@
                     <p>Etudiant en BUT Métier du Multimédia et de l'internet <br> à l'IUT du <span>Puy-en-Velay</span>
                     </p>
                     <div id="nbAnnee">
-                    <p><span>1</span>ère Année</p></div>
+                        <p><span>1</span>ère Année</p>
+                    </div>
                 </div>
                 <div id="btnCVtop">
                     <a href="../img/cv.pdf" target="_blank">Voir CV</a>
@@ -37,9 +39,10 @@
             </div>
         </div>
 
+        <!-- Slider de logos  -->
         <div id="logoSlider">
             <div id="logo-slide">
-                <?php 
+                <?php
                 imgSlider('html', 'logo html');
                 imgSlider('css', 'logo css');
                 imgSlider('js', 'logo javascript');
@@ -56,11 +59,28 @@
                 ?>
             </div>
         </div>
-
+        <!-- Duplication du slider -->
         <script>
             var copy = document.querySelector('#logo-slide').cloneNode(true);
             document.querySelector('#logoSlider').appendChild(copy);
         </script>
+
+        <!-- Illustration d'un projet -->
+
+        <div id="presProjetIndex">
+            <h2>Mon dernier Projet</h2>
+            <img src="../img/site-cyberpunk.webp" alt="Illustration du projet web cyberpunk 2077">
+            <div class="hoverProjet">
+                <h3><span>Projet Cyberpunk 2077</span> / 1ère année d'étude</h3>
+                <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
+                    réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077, car
+                    je voulais faire un site futuriste. J'ai du réaliser ce site en HTML, CSS et PHP avec
+                    un formulaire. Pendant la création de se site j'ai principalement améliorer mes compétences
+                    en css avec les animations, mais aussi avec ls flexbox.</p>
+                </p>
+                <a href="projets.php">Voir plus</a>
+            </div>
+        </div>
 
     </main>
 

@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+/*Fonts*/
+
 @font-face {
     font-family: 'erasBOLD';
     src: url('../fonts/eras-itc-bold.ttf') format('truetype');
@@ -18,9 +20,21 @@
     src: url("../fonts/ITCErasStd-Demi.ttf") format('truetype');
 }
 
+/*H2*/
+
+h2 {
+    font-family: 'erasBOLD';
+    font-size: 2.2em;
+    padding: 11% 0 4% 0;
+}
+
+/*span*/
+
 span {
     color: #076633;
 }
+
+/*c'est trop le flex*/
 
 .flex-center {
     width: 100%;
@@ -50,13 +64,20 @@ span {
     to {
         transform: translateX(-100%);
     }
-    
+
+}
+
+/*Main*/
+
+main {
+    background-color: rgb(16, 16, 20);
+    color: white;
 }
 
 /**********************Header*************************/
 
 header {
-    background-color: #141414;
+    background-color: rgba(0, 0, 0, 0.69);
     position: fixed;
     width: 100%;
     z-index: 1000;
@@ -68,21 +89,21 @@ header div {
     align-items: center;
 }
 
-.logo a{
+.logo a {
     margin: 2% 8% 2% 8%;
     width: 32%;
 }
 
-.logo img{
+.logo img {
     width: 100%;
     transition: 0.5s ease-in-out;
 }
 
-.logo img:hover{
+.logo img:hover {
     transform: scale(0.92);
 }
 
-nav{
+nav {
     width: 30%;
     margin: 2% 6% 2% 6%;
 }
@@ -97,7 +118,7 @@ nav li::after {
     transition: transform 0.3s ease-in-out;
 }
 
-#headerProject::after{
+#headerProject::after {
     width: 100%;
 }
 
@@ -106,11 +127,11 @@ nav li:hover::after {
     margin-left: 14%;
 }
 
-#headerProject:hover::after{
+#headerProject:hover::after {
     margin-left: 6%;
 }
 
-nav ul{
+nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,27 +139,27 @@ nav ul{
     margin-top: 2%;
 }
 
-nav li{
+nav li {
     font-family: 'erasBOLD';
     width: 100%;
     text-align: center;
 }
 
-nav a{
+nav a {
     color: white;
     text-decoration: none;
     font-size: 1.2em;
     transition: all, 0.5s;
 }
 
-nav a:hover{
+nav a:hover {
     color: #076633;
     margin-left: 12%;
 }
 
 /**********************Main Index*************************/
 
-#topIndex{
+#topIndex {
     background-image: url('../img/code.webp');
     background-attachment: fixed;
     background-size: cover;
@@ -151,47 +172,50 @@ nav a:hover{
     color: white;
 }
 
-#topTitleIndex{
+#topTitleIndex {
     background-color: rgba(0, 0, 0, 0.86);
     height: 100%;
 }
 
-#topIndex h1, #topIndex h2, #topIndex p, #btnCVtop{
+#topIndex h1,
+#topIndex h2,
+#topIndex p,
+#btnCVtop {
     filter: brightness(1.69);
     animation: reveal linear 2s;
 }
 
-#topIndex h1{
+#topIndex h1 {
     font-family: 'erasBOLD';
     font-size: 3.2em;
     padding: 16% 0 0 6%;
 }
 
-#topIndex h2{
+#topIndex h2 {
     font-family: 'erasBOLD';
     font-size: 4em;
     padding: 0 0 2% 6%;
 }
 
-#topIndex p{
+#topIndex p {
     font-family: 'erasDEMI';
     font-size: 2.2em;
     padding: 0 0 2% 6%;
 }
 
-#nbAnnee p{
+#nbAnnee p {
     font-size: 1.4em;
 }
 
-#nbAnnee span{
+#nbAnnee span {
     font-size: 2em;
 }
 
-#btnCVtop{
+#btnCVtop {
     margin: 6% 0 0 11%;
 }
 
-#btnCVtop a{
+#btnCVtop a {
     font-family: 'erasBOLD';
     font-size: 1.2em;
     border: none;
@@ -204,22 +228,23 @@ nav a:hover{
     text-decoration: none;
 }
 
-#btnCVtop a:hover{
+#btnCVtop a:hover {
     background-color: #0d9b4f;
     margin-left: 1%;
 }
 
-/****************Défilement infini de logos*******************/
+/*******Défilement infini de logos**********/
 
-#logoSlider{
+#logoSlider {
     overflow: hidden;
-    background: #141414;
+    background: #1b1b1bbb;
     white-space: nowrap;
     padding: 1.2% 0;
     position: relative;
 }
 
-#logoSlider:before, #logoSlider:after{
+#logoSlider:before,
+#logoSlider:after {
     position: absolute;
     top: 0;
     width: 500px;
@@ -228,22 +253,34 @@ nav a:hover{
     z-index: 2;
 }
 
-#logoSlider:before{
+#logoSlider:before {
     left: 0;
-    background: linear-gradient(to right, #141414, transparent);
+    background: linear-gradient(to right, #1b1b1b, transparent);
 }
 
-#logoSlider:after{
+#logoSlider:after {
     right: 0;
-    background: linear-gradient(to left, #141414, transparent);
+    background: linear-gradient(to left, #1b1b1b, transparent);
 }
 
-#logo-slide{
+#logo-slide {
     animation: 30s slide infinite linear;
     display: inline-block;
 }
 
-#logo-slide img{
+#logo-slide img {
     height: 69px;
     margin: 0 36px;
+}
+
+/*********Pres du dernier projet**********/
+
+#presProjetIndex {
+    width: auto;
+}
+
+#presProjetIndex img {
+    width: 69%;
+    display: flex;
+    justify-content: center;
 }
