@@ -276,11 +276,9 @@ nav a:hover {
 /*********Pres du dernier projet**********/
 
 #presProjetIndex {
-    width: auto;
+    width: 100%;
 }
 
 #presProjetIndex img {
     width: 69%;
-    display: flex;
-    justify-content: center;
 }

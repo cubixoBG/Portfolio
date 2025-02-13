@@ -77,7 +77,6 @@
                     je voulais faire un site futuriste. J'ai du réaliser ce site en HTML, CSS et PHP avec
                     un formulaire. Pendant la création de se site j'ai principalement améliorer mes compétences
                     en css avec les animations, mais aussi avec ls flexbox.</p>
-                </p>
                 <a href="projets.php">Voir plus</a>
             </div>
         </div>
