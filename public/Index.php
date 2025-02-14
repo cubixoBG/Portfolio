@@ -68,16 +68,21 @@
         <!-- Illustration d'un projet -->
 
         <div id="presProjetIndex">
-            <h2>Mon dernier Projet</h2>
-            <img src="../img/site-cyberpunk.webp" alt="Illustration du projet web cyberpunk 2077">
-            <div class="hoverProjet">
-                <h3><span>Projet Cyberpunk 2077</span> / 1ère année d'étude</h3>
-                <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
-                    réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077, car
-                    je voulais faire un site futuriste. J'ai du réaliser ce site en HTML, CSS et PHP avec
-                    un formulaire. Pendant la création de se site j'ai principalement améliorer mes compétences
-                    en css avec les animations, mais aussi avec ls flexbox.</p>
-                <a href="projets.php">Voir plus</a>
+            <div class="flex-center">
+                <h2>Mon dernier Projet</h2>
+                <div id="imgProjetIndex">
+                    <div class="filterCard"></div>
+                    <img src="../img/site-cyberpunk.webp" alt="Illustration du projet web cyberpunk 2077">
+                    <div class="hoverProject">
+                        <h3><span>Projet Cyberpunk 2077</span> / 1ère année d'étude</h3>
+                        <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
+                            réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077, car
+                            je voulais faire un site futuriste. J'ai du réaliser ce site en HTML, CSS et PHP avec
+                            un formulaire. Pendant la création de se site j'ai principalement améliorer mes compétences
+                            en css avec les animations, mais aussi avec ls flexbox.</p>
+                        <a href="projets.php">Voir plus</a>
+                    </div>
+                </div>
             </div>
         </div>
 
