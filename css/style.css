@@ -20,18 +20,27 @@
     src: url("../fonts/ITCErasStd-Demi.ttf") format('truetype');
 }
 
+/*Couleurs*/
+
+:root {
+    --color-bg: #101014;
+    --color-text: #fff;
+    --color-primary: #0d9b4f;
+    --color-secondary: #076633 ;
+}
+
 /*H2*/
 
 h2 {
     font-family: 'erasBOLD';
-    font-size: 2.2em;
-    padding: 12% 0 6% 0;
+    font-size: 2.8em;
+    padding: 15% 0 8% 0;
 }
 
 /*span*/
 
 span {
-    color: #076633;
+    color: var(--color-primary);
 }
 
 /*c'est trop le flex*/
@@ -70,8 +79,8 @@ span {
 /*Main*/
 
 main {
-    background-color: rgb(16, 16, 20);
-    color: white;
+    background-color: var(--color-bg);
+    color: var(--color-text);
 }
 
 /**********************Header*************************/
@@ -146,14 +155,14 @@ nav li {
 }
 
 nav a {
-    color: white;
+    color: var(--color-text);
     text-decoration: none;
     font-size: 1.2em;
     transition: all, 0.5s;
 }
 
 nav a:hover {
-    color: #076633;
+    color: var(--color-primary);
     margin-left: 12%;
 }
 
@@ -169,7 +178,7 @@ nav a:hover {
     padding: 0;
     width: 100%;
     align-items: center;
-    color: white;
+    color: var(--color-text);
 }
 
 #topTitleIndex {
@@ -181,7 +190,6 @@ nav a:hover {
 #topIndex h2,
 #topIndex p,
 #btnCVtop {
-    filter: brightness(1.69);
     animation: reveal linear 2s;
 }
 
@@ -220,16 +228,16 @@ nav a:hover {
     font-size: 1.2em;
     border: none;
     padding: 1% 1.6%;
-    background-color: #076633;
+    background-color: var(--color-primary);
     transition: 0.5s ease-in-out;
     border-radius: 16px;
     width: 4%;
-    color: white;
+    color: var(--color-text);
     text-decoration: none;
 }
 
 #btnCVtop a:hover {
-    background-color: #0d9b4f;
+    background-color: var(--color-secondary);
     margin-left: 1%;
 }
 
@@ -277,98 +285,125 @@ nav a:hover {
 
 #presProjetIndex {
     width: 100%;
-    height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-#presProjetIndex div:nth-child(1){
+#presProjetIndex div:nth-child(1) {
     width: 69%;
     flex-direction: column;
     align-items: center;
 }
 
 #presProjetIndex img {
+    display: block;
+    /* Élimine les marges internes */
     width: 100%;
+    /* S’adapte au parent */
+    height: auto;
+    /* Conserve le ratio */
     border-radius: 24px;
     transition: 0.5s ease-in-out;
 }
 
-#imgProjectIndex{
+#imgProjetIndex {
     transition: all, 0.5s ease-in-out;
-}
-
-#imgProjetIndex:hover .filterCard{
-    opacity: 100%;
-    transform: scale(1.02);
-}
-
-#imgProjetIndex:hover img{
-    transform: scale(1.02);
-}
-
-/* je veyx que HoverProject soit visible quand je hover imgProjectIndex */
-
-.filterCard{
-    z-index: 100;
-    position: absolute;
+    position: relative;
+    /* Assure que les enfants absolus prennent sa taille */
+    display: inline-block;
+    /* Empêche qu’il prenne toute la largeur du parent */
     width: 100%;
-    height: 71%;
-    background-color: rgba(0, 0, 0, 0.69);
+    max-width: 1200px;
+    /* Taille max pour s’adapter */
+    overflow: hidden;
     border-radius: 24px;
-    transition: all, 0.5s ease-in-out;
-    opacity: 0%;
 }
 
+#imgProjetIndex:hover img {
+    transform: scale(1.02);
+}
 
-#imgProjetIndex:hover .hoverProject {
+.filterCard {
+    position: absolute;
+    inset: 0;
+    /* Équivaut à top: 0; right: 0; bottom: 0; left: 0; */
+    min-width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 24px;
+    /* S'assurer qu’il suit l’image */
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 100;
+}
+
+#imgProjetIndex:hover .filterCard {
+    opacity: 0.82;
+    transform: scale(1.02);
+}
+
+#imgProjetIndex:hover .hoverProjet {
     visibility: visible;
     opacity: 1;
     transform: scale(1.02);
     transition: all 0.5s ease-in-out;
 }
 
-.hoverProject {
-    visibility: hidden;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
+.hoverProjet {
+    padding-top: 10%;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    z-index: 110;
+    /* Plus haut que .filterCard */
     display: flex;
-
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
 }
 
-.hoverProject h3 {
+
+
+dotlottie-player{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.hoverProjet h3 {
     font-family: 'erasBOLD';
     font-size: 2.2em;
-    color: white;
-    padding: 0 0 2% 0;
+    padding: 0 0 3% 0;
 }
 
-.hoverProject p{
+.hoverProjet p {
     font-family: 'erasMID';
     font-size: 1.2em;
-    color: white;
-    padding: 2% 0 4% 0;
+    padding: 2% 0 2% 0;
+    width: 69%;
+    text-align: center;
 }
 
-.hoverProject a {
+.hoverProjet a {
     font-family: 'erasBOLD';
     font-size: 1.2em;
     border: none;
     padding: 1% 1.6%;
-    background-color: #076633;
+    background-color: var(--color-primary);
     transition: 0.5s ease-in-out;
     border-radius: 16px;
-    color: white;
     text-decoration: none;
+    color: var(--color-text);
 }
 
-.hoverProject a:hover {
-    background-color: #0d9b4f;
-    margin-left: 1%;
+.hoverProjet a:hover {
+    background-color: var(--color-secondary);
+    margin-left: 2%;
 }

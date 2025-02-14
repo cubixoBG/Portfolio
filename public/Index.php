@@ -69,18 +69,29 @@
 
         <div id="presProjetIndex">
             <div class="flex-center">
-                <h2>Mon dernier Projet</h2>
+                <h2>Mon dernier <span>Projet</span></h2>
                 <div id="imgProjetIndex">
                     <div class="filterCard"></div>
+                    <!-- CTA Animation -->
+                    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+                        type="module"></script>
+                    <dotlottie-player src="https://lottie.host/e8c0a582-640a-48c6-9486-06c9c89bfc60/PtMxpRPCTP.lottie"
+                        background="transparent" speed="1" style="width: 169px; height: 169px" loop
+                        autoplay></dotlottie-player>
+                        <!-- Reste du code -->
                     <img src="../img/site-cyberpunk.webp" alt="Illustration du projet web cyberpunk 2077">
-                    <div class="hoverProject">
+                    <div class="hoverProjet">
                         <h3><span>Projet Cyberpunk 2077</span> / 1ère année d'étude</h3>
                         <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
                             réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077, car
-                            je voulais faire un site futuriste. J'ai du réaliser ce site en HTML, CSS et PHP avec
-                            un formulaire. Pendant la création de se site j'ai principalement améliorer mes compétences
-                            en css avec les animations, mais aussi avec ls flexbox.</p>
-                        <a href="projets.php">Voir plus</a>
+                            je voulais faire un site <span>futuriste</span>. J'ai du réaliser ce site en <span>HTML, CSS
+                                et PHP</span> avec
+                            un <span>formulaire</span>. Pendant la création de se site j'ai principalement améliorer mes
+                            <span>compétences
+                                en CSS</span> avec les <span>animations</span>, mais aussi avec des
+                            <span>flexbox</span>.
+                        </p>
+                        <a href="#">Voir plus</a>
                     </div>
                 </div>
             </div>
