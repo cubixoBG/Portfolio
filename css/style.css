@@ -34,7 +34,7 @@
 h2 {
     font-family: 'erasBOLD';
     font-size: 2.8em;
-    padding: 15% 0 8% 0;
+    padding: 9% 0 4% 0;
 }
 
 /*span*/
@@ -406,4 +406,10 @@ dotlottie-player{
 .hoverProjet a:hover {
     background-color: var(--color-secondary);
     margin-left: 2%;
+}
+
+/*************compétences principales Index***************/
+
+#compIndex {
+    width: 100%;
 }
