@@ -26,7 +26,7 @@
     --color-bg: #101014;
     --color-text: #fff;
     --color-primary: #0d9b4f;
-    --color-secondary: #076633 ;
+    --color-secondary: #076633;
 }
 
 /*H2*/
@@ -49,6 +49,22 @@ span {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+/* Leu filter card de merde la */
+
+.filterCard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 24px;
+    /* S'assurer qu’il suit l’image */
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    z-index: 100;
 }
 
 /**********Animations**********/
@@ -290,6 +306,10 @@ nav a:hover {
     flex-direction: column;
 }
 
+#presProjetIndex h2 {
+    margin-left: -87%;
+}
+
 #presProjetIndex div:nth-child(1) {
     width: 69%;
     flex-direction: column;
@@ -324,20 +344,6 @@ nav a:hover {
     transform: scale(1.02);
 }
 
-.filterCard {
-    position: absolute;
-    inset: 0;
-    /* Équivaut à top: 0; right: 0; bottom: 0; left: 0; */
-    min-width: 100%;
-    height: 100%;
-    background-color: black;
-    border-radius: 24px;
-    /* S'assurer qu’il suit l’image */
-    transition: all 0.5s ease-in-out;
-    opacity: 0;
-    z-index: 100;
-}
-
 #imgProjetIndex:hover .filterCard {
     opacity: 0.82;
     transform: scale(1.02);
@@ -358,7 +364,7 @@ nav a:hover {
     width: 100%;
     height: 100%;
     z-index: 110;
-    /* Plus haut que .filterCard */
+    /* Plus haut que .f ilterCard */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -369,9 +375,7 @@ nav a:hover {
     transition: all 0.5s ease-in-out;
 }
 
-
-
-dotlottie-player{
+dotlottie-player {
     position: absolute;
     top: 0;
     right: 0;
@@ -412,4 +416,85 @@ dotlottie-player{
 
 #compIndex {
     width: 100%;
+}
+
+#compIndex h2 {
+    padding-left: 8%;
+}
+
+#compIndexCard {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 0 11% 0 11%;
+    justify-content: center;
+}
+
+.compIndexCard {
+    width: 420px;
+    margin: 2% 1% 2% 1%;
+    border-radius: 16px;
+    background-color: rgba(0, 0, 0, 0.69);
+    /*A ENLEVER*/
+    transition: 0.5s ease-in-out;
+}
+
+.compIndexCardImg {
+    position: relative;
+}
+
+.compIndexCardImg img {
+    width: 100%;
+    height: 280px;
+    border-radius: 16px;
+    
+    object-fit: cover;
+    object-position: 0 14%;
+}
+
+.compIndexCard:hover .filterCard {
+    opacity: 0.82;
+}
+
+.compIndexCard:hover {
+    transform: scale(1.04);
+}
+
+.compIndexCard .filterCard{
+    border-radius: 16px;
+}
+
+.textCompCard {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s ease-in-out;
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    margin-left: 9%;
+    padding-top: 26%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 110;
+}
+
+.compIndexCard h3 {
+    color: var(--color-primary);
+    font-family: 'erasBOLD';
+    justify-content: center;
+    display: flex;
+    margin: 0 0 4% 0;
+    filter: brightness(1.4);
+}
+
+.compIndexCard p {
+    font-family: 'erasMID';
+    justify-content: center;
+    display: flex;
+}
+
+.compIndexCard:hover .textCompCard {
+    visibility: visible;
+    opacity: 1;
 }

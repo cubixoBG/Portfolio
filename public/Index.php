@@ -83,10 +83,13 @@
                     <div class="hoverProjet">
                         <h3><span>Projet Cyberpunk 2077</span> / 1ère année d'étude</h3>
                         <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
-                            réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077, car
-                            je voulais faire un site <span>futuriste</span>. J'ai du réaliser ce site en <span>HTML, CSS
+                            réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077,
+                            car
+                            je voulais faire un site <span>futuriste</span>. J'ai du réaliser ce site en <span>HTML,
+                                CSS
                                 et PHP</span> avec
-                            un <span>formulaire</span>.<br> Pendant la création de se site j'ai principalement améliorer
+                            un <span>formulaire</span>.<br> Pendant la création de se site j'ai principalement
+                            améliorer
                             mes
                             <span>compétences
                                 en CSS</span> avec les <span>animations</span>, mais aussi avec les
@@ -98,71 +101,27 @@
             </div>
         </div>
 
+
         <!-- section de Mes competences princpales -->
 
         <div id="compIndex">
-            <div class="flex-center">
+            <div>
                 <h2>Mes <span>Compétences </span>principales</h2>
-                <div id="compIndexCard">
-                    <div class="compIndexCard">
-                        <div class="compIndexCardImg">
-                            <img src="#" alt="Illustration de developpement WEB">
-                        </div>
-                        <h3>Développement WEB</h3>
-                        <p>"A modifier !" Je suis capable de créer un site web de A à Z en utilisant les langages HTML,
-                            CSS,
-                            JS et PHP.
-                            J'ai aussi des compétences en SQL pour la gestion de base de données.</p>
-                    </div>
-                    <div class="compIndexCard">
-                        <div class="compIndexCardImg">
-                            <img src="#" alt="Illustration de design WEB">
-                        </div>
-                        <h3>WebDesign</h3>
-                        <p>"A modifier !" Je suis capable de créer des maquettes de site web, des logos, des chartes
-                            graphiques et des interfaces utilisateur en utilisant des outils comme Figma, Photoshop
-                            Illustrator et InDesign.</p>
-
-                    </div>
-                    <div class="compIndexCard">
-                        <div class="compIndexCardImg">
-                            <img src="#" alt="Illustration de programmation">
-                        </div>
-                        <h3>Bases dans la programmation et le Mobile</h3>
-                        <p>"A modifier !" Je possède des bases en programmation et Algorithmie grâce a mon BUT
-                            Informatique. je me suis aussi intéressé il y a peu pour le developpement Mobile avec
-                            Flutter</p>
-                    </div>
-                    <div class="compIndexCard">
-                        <div class="compIndexCardImg">
-                            <img src="#" alt="Illustration de montage vidéo">
-                        </div>
-                        <h3>Bases en AudioVisuek</h3>
-                        <p>"A modifier !" Je possède des bases en audiovisuel, ce qui me permet de réaliser des montages
+                <div class="flex-center">
+                    <div id="compIndexCard">
+                        <?php compIndex('webdev', 'Illustration de developpement WEB', 'Développement WEB', '"A modifier !" Je suis capable de créer un site web de A à Z en utilisant les langages HTML, CSS, JS et PHP. J\'ai aussi des compétences en SQL pour la gestion de base de données.');
+                        compIndex('webdesignill', 'Illustration de design WEB', 'WebDesign', '"A modifier !" Je suis capable de créer des maquettes de site web, des logos, des chartes graphiques et des interfaces utilisateur en utilisant des outils comme Figma, Photoshop Illustrator et InDesign.');
+                        compIndex('prog', 'Illustration de programmation', 'Bases en Programmation et Mobile', '"A modifier !" Je possède des bases en programmation et Algorithmie grâce a mon BUT
+                            Informatique. je me suis aussi intéressé il y a peu pour le developpement Mobile avec Flutter');
+                        compIndex('stratcom', 'Illustration de communication digitale', 'Communication Digitale', '"A modifier !" Je suis capable de créer des campagnes de communication digitale, de gérer des réseaux sociaux et de créer des contenus pour le web.');
+                        compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel', "A modifier ! Je possède des bases en audiovisuel, ce qui me permet de réaliser des montages
                             vidéo avec DaVinci Resolve et After Effect. J'ai également développé des compétences en
-                            prise de vue caméra, enregistrement et création sonore sur Logic Pro.</p>
-                    </div>
-                    <div class="compIndexCard">
-                        <div class="compIndexCardImg">
-                            <img src="#" alt="Illustration de design graphique">
-                        </div>
-                        <h3>Bases en Design Graphique</h3>
-                        <p>"A modifier !" Je possède des bases en design graphique, ce qui me permet de réaliser des
-                            logos, des chartes graphiques, des affiches et autres sur Photoshop, Illustrator et InDesign
-                        </p>
-                        <div class="compIndexCard">
-                            <div class="compIndexCardImg">
-                                <img src="#" alt="Illustration de communication digitale">
-                            </div>
-                            <h3>Bases en communication numérique</h3>
-                            <p>"A modifier !" Je possède des bases en communication numérique grâce à mon BUT MMi, afin
-                                de
-                                me permettre d'étudier et de cibler un produit ou alors d'analyser et de comprendre les
-                                besoins d'un client..</p>
-                        </div>
+                            prise de vue caméra, enregistrement et création sonore sur Logic Pro.");
+                        ?>
                     </div>
                 </div>
             </div>
+        </div>
     </main>
 
     <footer>
