@@ -182,6 +182,29 @@ nav a:hover {
     margin-left: 12%;
 }
 
+/**********************FOOTER*************************/
+
+footer {
+    background-color: var(--color-bg);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0 2% 0;
+    color: var(--color-text);
+}
+
+footer h3 {
+    font-family: 'erasDEMI';
+    font-size: 1.2em;
+    color: var(--color-primary);
+}
+
+footer p {
+    font-family: 'erasMID';
+    font-size: 1em;
+}
+
 /**********************Main Index*************************/
 
 #topIndex {
