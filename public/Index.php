@@ -109,14 +109,13 @@
                 <h2>Mes <span>Compétences </span>principales</h2>
                 <div class="flex-center">
                     <div id="compIndexCard">
-                        <?php compIndex('webdev', 'Illustration de developpement WEB', 'Développement WEB', '"A modifier !" Je suis capable de créer un site web de A à Z en utilisant les langages HTML, CSS, JS et PHP. J\'ai aussi des compétences en SQL pour la gestion de base de données.');
-                        compIndex('webdesignill', 'Illustration de design WEB', 'WebDesign', '"A modifier !" Je suis capable de créer des maquettes de site web, des logos, des chartes graphiques et des interfaces utilisateur en utilisant des outils comme Figma, Photoshop Illustrator et InDesign.');
-                        compIndex('prog', 'Illustration de programmation', 'Bases en Programmation et Mobile', '"A modifier !" Je possède des bases en programmation et Algorithmie grâce a mon BUT
-                            Informatique. je me suis aussi intéressé il y a peu pour le developpement Mobile avec Flutter');
-                        compIndex('stratcom', 'Illustration de communication digitale', 'Communication Digitale', '"A modifier !" Je suis capable de créer des campagnes de communication digitale, de gérer des réseaux sociaux et de créer des contenus pour le web.');
-                        compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel', "A modifier ! Je possède des bases en audiovisuel, ce qui me permet de réaliser des montages
-                            vidéo avec DaVinci Resolve et After Effect. J'ai également développé des compétences en
-                            prise de vue caméra, enregistrement et création sonore sur Logic Pro.");
+                        <?php compIndex('webdev', 'Illustration de developpement WEB', 'Développement WEB', 'Passionné par le développement WEB, je sais créer un site web en utilisant les langages HTML, CSS, JS et PHP. J\'ai aussi des compétences en SQL pour la gestion de base de données.');
+                        compIndex('webdesignill', 'Illustration de design WEB', 'WebDesign', "Je suis capable de créer des maquettes de site web, des logos, des chartes graphiques et de l'UX/UI en utilisant des outils comme Figma, Photoshop Illustrator et InDesign.");
+                        compIndex('prog', 'Illustration de programmation', 'Bases en Programmation et Mobile', 'Je possède des bases en programmation et Algorithmie grâce a mon BUT
+                            Informatique (Processing et Arduino principalement). je me suis aussi intéressé il y a peu pour le développement Mobile avec Flutter');
+                        compIndex('stratcom', 'Illustration de communication digitale', 'Bases en Communication Digitale', 'Je suis capable de créer des campagnes de communication digitale pour un service ou produit, de gérer des réseaux sociaux ou même de créer du contenu pour le web.');
+                        compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel',  "Mes bases en audiovisuel, me permettent de réaliser du montage
+                            vidéo avec DaVinci Resolve et After Effect. Mais également de faire de la prise de vue caméra,  de l'enregistrement audio et de la création sonore sur Logic Pro.");
                         ?>
                     </div>
                 </div>

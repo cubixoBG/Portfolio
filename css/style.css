@@ -194,6 +194,18 @@ footer {
     color: var(--color-text);
 }
 
+footer div:nth-child(1) {
+    width: 100%;
+}
+
+#sepAnimeFooter {
+    display: flex;
+    width: 100%;
+    height: 2px;
+    background-color: var(--color-primary);
+    top: 0;
+}
+
 footer h3 {
     font-family: 'erasDEMI';
     font-size: 1.2em;

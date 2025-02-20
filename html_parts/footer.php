@@ -1,15 +1,22 @@
-<footer>
+<div>
+    <div id="sepAnimeFooter"></div>
     <div>
-        <h2>Me <span>contacter</span></h2>
-        <div class="flex-center">
-            <div id="contact">
-                <div>
-                    <h3>Mail</h3>
-                    <p>morgan.bonne.pro@gmail.com</p>
-                </div>
-                <div>
-                    <h3>Téléphone</h3>
-                    <p>06 15 67 47 83</p>
-                </div>
+        <div id="contactFooter">
+            <div>
+                <h3>Contactez moi sur :</h3>
+                <p>morgan.bonne.pro@gmail.com</p>
             </div>
-</footer>
+        </div>
+        <div id="reseauFooter">
+            <a href="https://www.linkedin.com/in/morgan-bonne-4a0685258/" target="_blank"><img
+                    src="../img/linkedin.webp" alt="logo linkedin"></a>
+            <a href="https://github.com/cubixoBG" target="_blank"><img src="../img/github.webp" alt="logo github"></a>
+            <a href="https://www.instagram.com/cubixo_/" target="_blank"><img src="../img/instagram.webp"
+                    alt="logo instagram"></a>
+            <a href="https://x.com/cubixo_" target="_blank"><img src="../img/twitter.webp" alt="logo twitter"></a>
+            <a href="https://www.twitch.tv/cubixo_" target="_blank"><img src="../img/twitch.webp" alt="logo twitch"></a>
+            <a href="https://www.youtube.com/cubixo" target="_blank"><img src="../img/youtube.webp"
+                    alt="logo youtube"></a>
+        </div>
+    </div>
+</div>
