@@ -1,22 +1,42 @@
 <div>
     <div id="sepAnimeFooter"></div>
     <div>
-        <div id="contactFooter">
-            <div>
-                <h3>Contactez moi sur :</h3>
-                <p>morgan.bonne.pro@gmail.com</p>
+        <div id="footerMail">
+            <p><span>eMail : </span> Morgan.Bonne@gmail.com</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <div class="icon linkedin">
+                        <div class="tooltip">LinkedIn</div>
+                        <span><i class="fab fa-linkedin-in"></i></span>
+                    </div>
+                    <div class="icon github">
+                        <div class="tooltip">Github</div>
+                        <span><i class="fab fa-github"></i></span>
+                    </div>
+                    <div class="icon instagram">
+                        <div class="tooltip">Instagram</div>
+                        <span><i class="fab fa-instagram"></i></span>
+                    </div>
+                    <!-- <div class="icon twitter">
+                        <div class="tooltip">Twitter</div>
+                        <span><i class="fa-brands fa-x-twitter"></i></span>
+                    </div> -->
+                    <div class="icon twitch">
+                        <div class="tooltip">Twitch</div>
+                        <span><i class="fab fa-twitch"></i></span>
+                    </div>
+                    <div class="icon youtube">
+                        <div class="tooltip">Youtube</div>
+                        <span><i class="fab fa-youtube"></i></span>
+                    </div>
+                </div>
+                <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
             </div>
         </div>
-        <div id="reseauFooter">
-            <a href="https://www.linkedin.com/in/morgan-bonne-4a0685258/" target="_blank"><img
-                    src="../img/linkedin.webp" alt="logo linkedin"></a>
-            <a href="https://github.com/cubixoBG" target="_blank"><img src="../img/github.webp" alt="logo github"></a>
-            <a href="https://www.instagram.com/cubixo_/" target="_blank"><img src="../img/instagram.webp"
-                    alt="logo instagram"></a>
-            <a href="https://x.com/cubixo_" target="_blank"><img src="../img/twitter.webp" alt="logo twitter"></a>
-            <a href="https://www.twitch.tv/cubixo_" target="_blank"><img src="../img/twitch.webp" alt="logo twitch"></a>
-            <a href="https://www.youtube.com/cubixo" target="_blank"><img src="../img/youtube.webp"
-                    alt="logo youtube"></a>
+        <div id="copyright">
+            <p> © Copyright 2025 - Développement et Design par BONNE Morgan. Tous droits réservés.</p>
         </div>
     </div>
 </div>
