@@ -65,6 +65,37 @@
             document.querySelector('#logoSlider').appendChild(copy);
         </script>
 
+        <!-- Section de présentation de ma magnificiente personne -->
+
+        <div id="presIndex">
+            <div>
+                <h2><span>Qui</span> suis-je ?</h2>
+                <div class="flex-center">
+                    <div id="presIndexText">
+                        <section>
+                        <p>Je suis actuellement étudiant en <span>BUT Métier du Multimédia et de l'internet</span> à
+                            l'<span>IUT du
+                                Puy-en-Velay</span>. J'aimerais travailler dans le <span>Développement Web</span> et
+                            le <span>WebDesign</span>. J'ai
+                            commencé à m'intéresser à ce domaine depuis <span>2023</span>. J'ai alors
+                            appris à créer des sites web en utilisant des langages comme <span>HTML</span>, <span>CSS</span>, <span>JS</span> & <span>PHP</span>. J'ai aussi
+                            appris à utiliser des outils de design graphique comme <span>Photoshop</span>, <span>Illustrator</span>, <span>InDesign</span> & <span>Figma</span> lors de mon BUT MMI.
+                            J'ai aussi des bases en <span>SQL</span> pour la gestion de base de données et en
+                            <span>programmation</span> grâce à ma première année de BUT Informatique. Mais
+                            également des bases en <span>Audiovisuel</span> et en <span>Communication
+                                digitale</span> que
+                            j'ai acquis lors de mon but MMI.
+                            <br> <br>
+                            Dans le futur, j'aimerais developper mes compétences dans les <span>Nouvelles
+                                Technologies</span> mais surtout les <span>Intelligences Artificielles</span>, la
+                            <span>Robotique</span> et la <span>Réalité Virtuelle</span> qui me passionnent beaucoup.
+                        </p>
+                    </section>
+                    </div>  
+                </div>
+            </div>
+        </div>
+
         <!-- Illustration d'un projet -->
 
         <div id="presProjetIndex">
@@ -85,9 +116,7 @@
                         <p>Dans ce projet, j'ai du créer un site présentant une période historique, qu'elle soit
                             réelle ou fictive. J'ai alors choisi de créer un site sur le jeu vidéo Cyberpunk 2077,
                             car
-                            je voulais faire un site <span>futuriste</span>. J'ai du réaliser ce site en <span>HTML,
-                                CSS
-                                et PHP</span> avec
+                            je voulais faire un site <span>futuriste</span>. J'ai du réaliser ce site en <span>HTML</span>, <span>CSS</span> & <span>PHP</span> avec
                             un <span>formulaire</span>.<br> Pendant la création de se site j'ai principalement
                             améliorer
                             mes
@@ -114,7 +143,7 @@
                         compIndex('prog', 'Illustration de programmation', 'Bases en Programmation et Mobile', 'Je possède des bases en programmation et Algorithmie grâce a mon BUT
                             Informatique (Processing et Arduino principalement). je me suis aussi intéressé il y a peu pour le développement Mobile avec Flutter');
                         compIndex('stratcom', 'Illustration de communication digitale', 'Bases en Communication Digitale', 'Je suis capable de créer des campagnes de communication digitale pour un service ou produit, de gérer des réseaux sociaux ou même de créer du contenu pour le web.');
-                        compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel',  "Mes bases en audiovisuel, me permettent de réaliser du montage
+                        compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel', "Mes bases en audiovisuel, me permettent de réaliser du montage
                             vidéo avec DaVinci Resolve et After Effect. Mais également de faire de la prise de vue caméra,  de l'enregistrement audio et de la création sonore sur Logic Pro.");
                         ?>
                     </div>

@@ -1,8 +1,8 @@
 <div>
-    <div id="sepAnimeFooter"></div>
+    <div class="sepAnimeFooter"></div>
     <div>
         <div id="footerMail">
-            <p><span>eMail : </span> Morgan.Bonne@gmail.com</p>
+            <p><span>eMail : </span> Morgan.Bonne.Pro@gmail.com</p>
         </div>
         <div class="container">
             <div class="row">
