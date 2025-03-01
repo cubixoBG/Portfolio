@@ -11,7 +11,7 @@
     <title>Bienvenue sur ma Page</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" type="image/png" href="../img/favicon.ico">
-    <?php include('../bootstrap.php') ?>
+    <?php include(__DIR__ . '/../bootstrap.php'); ?>
 </head>
 
 <body>
