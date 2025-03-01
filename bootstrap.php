@@ -11,6 +11,8 @@ function imgSlider($name, $description)
     echo '<img src="/img/' . $name . '.webp" alt="' . $description . '">';
 }
 
+"Wesh les gatés"
+
 function compIndex($name, $description, $title, $texte)
 {
     echo '<div class="compIndexCard">
