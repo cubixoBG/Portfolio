@@ -3,12 +3,12 @@
 //Fontion pour inclure les parties html réutilisées du site
 function html_parts($name)
 {
-    require(__DIR__ . "../html_parts/" . $name . ".php");
+    require(__DIR__ . "html_parts/" . $name . ".php");
 }
 
 function imgSlider($name, $description)
 {
-    echo '<img src="../img/' . $name . '.webp" alt="' . $description . '">';
+    echo '<img src="/img/' . $name . '.webp" alt="' . $description . '">';
 }
 
 function compIndex($name, $description, $title, $texte)
