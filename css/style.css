@@ -177,6 +177,7 @@ nav li::after {
 
 #headerProject::after {
     width: 100%;
+    display: inline;
 }
 
 nav li:hover::after {
