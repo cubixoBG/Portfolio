@@ -545,7 +545,6 @@ footer p {
     background-attachment: fixed;
     background-position: center;
     z-index: 100;
-    filter: brightness(0.5);
 }
 
 #presIndexText p {
@@ -554,6 +553,7 @@ footer p {
     width: 69%;
     text-align: center;
     padding-bottom: 3%;
+    filter: brightness(1.4);
     animation: revealT linear 2s;
     animation-timeline: view();
     /*Fait apparaitre par rapport au scroll*/
