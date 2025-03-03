@@ -217,33 +217,7 @@ nav a:hover {
 
 /********************responsive header***********************/
 
-@media screen and (max-width: 1080px) {
-    nav {
-        width: 40%;
-    }
-    nav a {
-        font-size: 1.5vw;
-    }
-}
 
-@media screen and (max-width: 800px) {
-    header div {
-        flex-direction: column;
-    }
-    nav {
-        width: 100%;
-        margin: 2% 0;
-    }
-    .logo a {
-        width: 32%;
-    }
-    nav li::after {
-        width: 40%;
-    }
-    nav a {
-        font-size: 2em;
-    }
-}
 
 /**********************FOOTER*************************/
 
