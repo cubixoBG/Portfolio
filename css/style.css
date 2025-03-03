@@ -533,6 +533,7 @@ footer p {
     width: 100%;
     text-align: center;
     height: 100%;
+    filter: brightness(1.32);
 }
 
 #presIndex div {
@@ -553,7 +554,7 @@ footer p {
     width: 69%;
     text-align: center;
     padding-bottom: 3%;
-    filter: brightness(1.4);
+    filter: brightness(1.32);
     animation: revealT linear 2s;
     animation-timeline: view();
     /*Fait apparaitre par rapport au scroll*/
