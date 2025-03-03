@@ -545,6 +545,7 @@ footer p {
     background-attachment: fixed;
     background-position: center;
     z-index: 100;
+    filter: brightness(0.5);
 }
 
 #presIndexText p {
