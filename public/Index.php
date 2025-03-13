@@ -47,6 +47,9 @@
                 imgSlider('css', 'logo css');
                 imgSlider('js', 'logo javascript');
                 imgSlider('php', 'logo php');
+                imgSlider('java', 'logo java');
+                imgSlider('arduino', 'logo arduino');
+                imgSlider('processing', 'logo processing');
                 imgSlider('SQL', 'logo sql');
                 imgSlider('vs', 'logo visual studio code');
                 imgSlider('flutter', 'logo flutter');
@@ -88,7 +91,7 @@
                             <br> <br>
                             Dans le futur, j'aimerais developper mes compétences dans les <span>Nouvelles
                                 Technologies</span> mais surtout les <span>Intelligences Artificielles</span>, la
-                            <span>Robotique</span> et la <span>Réalité Virtuelle</span> qui me passionnent beaucoup.
+                            <span>Robotique</span> et la <span>Réalité Virtuelle</span> qui m'intéressent beaucoup.
                         </p>
                     </section>
                     </div>  
@@ -124,7 +127,7 @@
                                 en CSS</span> avec les <span>animations</span>, mais aussi avec les
                             <span>flexbox</span>.
                         </p>
-                        <a href="#">Voir plus</a>
+                        <a href="http://cubixo.go.yo.fr">Voir plus</a>
                     </div>
                 </div>
             </div>

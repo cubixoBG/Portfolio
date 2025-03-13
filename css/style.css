@@ -177,7 +177,6 @@ nav li::after {
 
 #headerProject::after {
     width: 100%;
-    display: inline;
 }
 
 nav li:hover::after {
@@ -188,6 +187,7 @@ nav li:hover::after {
 
 #headerProject:hover::after {
     margin-left: 6%;
+    display: inline;
 }
 
 nav ul {
