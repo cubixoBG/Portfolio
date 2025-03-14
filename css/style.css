@@ -175,6 +175,10 @@ nav li::after {
     transition: transform 0.3s ease-in-out;
 }
 
+#headerProject{
+    width: 120%;
+}
+
 #headerProject::after {
     width: 100%;
 }
@@ -187,7 +191,6 @@ nav li:hover::after {
 
 #headerProject:hover::after {
     margin-left: 6%;
-    display: inline;
 }
 
 nav ul {
