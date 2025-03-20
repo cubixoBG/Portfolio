@@ -21,6 +21,8 @@
 
     <main>
 
+        <!-- En cours de création -->
+        <h1 id="enCrea">Page en cours de <span>création</span></h1>
 
     </main>
 

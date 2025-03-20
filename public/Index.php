@@ -80,7 +80,7 @@
                             l'<span>IUT du
                                 Puy-en-Velay</span>. J'aimerais travailler dans le <span>Développement Web</span> et
                             le <span>WebDesign</span>. J'ai
-                            commencé à m'intéresser à ce domaine depuis <span>2023</span>. J'ai alors
+                            commencé à m'intéresser à ce domaine en <span>2023</span>. J'ai alors
                             appris à créer des sites web en utilisant des langages comme <span>HTML</span>, <span>CSS</span>, <span>JS</span> & <span>PHP</span>. J'ai aussi
                             appris à utiliser des outils de design graphique comme <span>Photoshop</span>, <span>Illustrator</span>, <span>InDesign</span> & <span>Figma</span> lors de mon BUT MMI.
                             J'ai aussi des bases en <span>SQL</span> pour la gestion de base de données et en

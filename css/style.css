@@ -33,7 +33,7 @@
 
 h2 {
     font-family: 'erasBOLD';
-    font-size: 2.8em;
+    font-size: 4vh;
     padding: 9% 0 4% 0;
     transition: 0.5s ease-in-out;
 }
@@ -161,7 +161,7 @@ header div {
 }
 
 nav {
-    width: 30%;
+    width: 35%;
     margin: 2% 6% 2% 6%;
 }
 
@@ -210,7 +210,7 @@ nav li {
 nav a {
     color: var(--color-text);
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: 2.6vh;
     transition: all, 0.5s;
 }
 
@@ -221,7 +221,75 @@ nav a:hover {
 
 /********************responsive header***********************/
 
+@media (max-width: 1650px) {
+    nav{
+        width: 50%;
+    }
 
+    nav a {
+        font-size: 2.2vh;
+    }
+}
+
+@media (max-width: 1250px) {
+    nav {
+        width: 69%;
+    }
+
+    nav a {
+        font-size: 1.8vh;
+    }
+}
+
+@media (max-width: 1100px) {
+    header {
+        width: 100%;
+    }
+
+    header div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo a {
+        margin: 2% 8% 2% 8%;
+        width: 32%;
+    }
+
+    nav {
+        width: 100%;
+        margin: 2% 6% 2% 6%;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin-top: 2%;
+    }
+
+    nav li {
+        font-family: 'erasBOLD';
+        width: 20%;
+        text-align: center;
+    }
+
+    #headerProject{
+        width: 20%;
+    }
+
+    nav a {
+        color: var(--color-text);
+        text-decoration: none;
+        transition: all, 0.5s;
+    }
+
+    nav a:hover {
+        color: var(--color-primary);
+        margin-left: 12%;
+    }   
+}
 
 /**********************FOOTER*************************/
 
@@ -257,13 +325,12 @@ footer div:nth-child(2) {
 
 footer p {
     font-family: 'erasMID';
-    font-size: 1em;
     color: var(--color-text);
 }
 
 #footerMail p {
     font-family: 'erasBOLD';
-    font-size: 2.3em;
+    font-size: 3.8vh;
     margin: 5% 0 1% 0;
     color: var(--color-text);
     justify-content: center;
@@ -272,7 +339,7 @@ footer p {
 
 #copyright {
     font-family: 'erasMID';
-    font-size: 1em;
+    font-size: 1.8vh;
     color: var(--color-text);
     padding-top: 2%;
     justify-content: center;
@@ -316,7 +383,7 @@ footer p {
     color: #ffffff;
     padding: 5px 8px;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px rgba(0,0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
     transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -412,24 +479,24 @@ footer p {
 
 #topIndex h1 {
     font-family: 'erasBOLD';
-    font-size: 3.2em;
+    font-size: 4.4vh;
     padding: 16% 0 0 6%;
 }
 
 #topIndex h2 {
     font-family: 'erasBOLD';
-    font-size: 4em;
+    font-size: 5.6vh;
     padding: 0 0 2% 6%;
 }
 
 #topIndex p {
     font-family: 'erasDEMI';
-    font-size: 2.2em;
+    font-size: 2.8vh;
     padding: 0 0 2% 6%;
 }
 
 #nbAnnee p {
-    font-size: 1.4em;
+    font-size: 2.2vh;
 }
 
 #nbAnnee span {
@@ -442,7 +509,7 @@ footer p {
 
 #btnCVtop a {
     font-family: 'erasBOLD';
-    font-size: 1.2em;
+    font-size: 2.2vh;
     border: none;
     padding: 1% 1.6%;
     background-color: var(--color-primary);
@@ -528,7 +595,7 @@ footer p {
 
 #presIndexText p {
     font-family: 'erasMID';
-    font-size: 1.2em;
+    font-size: 1.8vh;
     width: 69%;
     text-align: center;
     padding-bottom: 3%;
@@ -654,13 +721,13 @@ dotlottie-player {
 
 .hoverProjet h3 {
     font-family: 'erasBOLD';
-    font-size: 2.2em;
+    font-size: 3.6vh;
     padding: 0 0 3% 0;
 }
 
 .hoverProjet p {
     font-family: 'erasMID';
-    font-size: 1.2em;
+    font-size: 1.8vh;
     padding: 2% 0 2% 0;
     width: 69%;
     text-align: center;
@@ -668,7 +735,7 @@ dotlottie-player {
 
 .hoverProjet a {
     font-family: 'erasBOLD';
-    font-size: 1.2em;
+    font-size: 1.8vh;
     border: none;
     padding: 1% 1.6%;
     background-color: var(--color-primary);
@@ -776,4 +843,25 @@ dotlottie-player {
 .compIndexCard:hover .textCompCard {
     visibility: visible;
     opacity: 1;
+}
+
+/****** Responsive Index ******/
+
+
+
+/********Pages en cours de créa**********/
+
+#enCrea{
+    height: 100vh;
+    font-size: 4em;
+    font-family: 'erasBOLD';
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#enCrea span{
+    color: var(--color-primary);
+    margin-left: 1.2%;
 }
