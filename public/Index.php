@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div id="btnCVtop">
-                    <a href="../img/cv.pdf" target="_blank">Voir CV</a>
+                    <a href="./img/cv.pdf" target="_blank">Voir CV</a>
                 </div>
             </div>
         </div>
@@ -143,7 +143,7 @@
                     <div id="compIndexCard">
                         <?php compIndex('webdev', 'Illustration de developpement WEB', 'Développement WEB', 'Passionné par le développement WEB, je sais créer un site web en utilisant les langages HTML, CSS, JS et PHP. J\'ai aussi des compétences en SQL pour la gestion de base de données.');
                         compIndex('webdesignill', 'Illustration de design WEB', 'WebDesign', "Je suis capable de créer des maquettes de site web, des logos, des chartes graphiques et de l'UX/UI en utilisant des outils comme Figma, Photoshop Illustrator et InDesign.");
-                        compIndex('prog', 'Illustration de programmation', 'Bases en Programmation et Mobile', 'Je possède des bases en programmation et Algorithmie grâce a mon BUT
+                        compIndex('prog', 'Illustration de programmation', 'Programmation et Mobile', 'Je possède des bases en programmation et Algorithmie grâce à mon BUT
                             Informatique (Processing et Arduino principalement). je me suis aussi intéressé il y a peu pour le développement Mobile avec Flutter');
                         compIndex('stratcom', 'Illustration de communication digitale', 'Bases en Communication Digitale', 'Je suis capable de créer des campagnes de communication digitale pour un service ou produit, de gérer des réseaux sociaux ou même de créer du contenu pour le web.');
                         compIndex('audiovisuel', 'Illustration de montage vidéo', 'Bases en AudioVisuel', "Mes bases en audiovisuel, me permettent de réaliser du montage

@@ -7,30 +7,31 @@
         <div class="container">
             <div class="row">
                 <div class="wrapper">
+                    <a href="https://www.linkedin.com/in/morgan-bonne-4a0685258/" target="_blank">
                     <div class="icon linkedin">
                         <div class="tooltip">LinkedIn</div>
                         <span><i class="fab fa-linkedin-in"></i></span>
-                    </div>
+                    </div></a>
+                    <a href="https://github.com/cubixoBG" target="_blank">
                     <div class="icon github">
                         <div class="tooltip">Github</div>
                         <span><i class="fab fa-github"></i></span>
-                    </div>
+                    </div></a>
+                    <a href="https://www.instagram.com/cubixo_/" target="_blank">
                     <div class="icon instagram">
                         <div class="tooltip">Instagram</div>
                         <span><i class="fab fa-instagram"></i></span>
-                    </div>
-                    <!-- <div class="icon twitter">
-                        <div class="tooltip">Twitter</div>
-                        <span><i class="fa-brands fa-x-twitter"></i></span>
-                    </div> -->
+                    </div></a>
+                    <a href="https://twitch.com/cubixo_" target="_blank">
                     <div class="icon twitch">
                         <div class="tooltip">Twitch</div>
                         <span><i class="fab fa-twitch"></i></span>
-                    </div>
+                    </div></a>
+                    <a href="https://www.youtube.com/@cubixo" target="_blank">
                     <div class="icon youtube">
                         <div class="tooltip">Youtube</div>
                         <span><i class="fab fa-youtube"></i></span>
-                    </div>
+                    </div></a>
                 </div>
                 <script src="https://kit.fontawesome.com/dd8c49730d.js" crossorigin="anonymous"></script>
             </div>
