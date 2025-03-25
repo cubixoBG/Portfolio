@@ -532,7 +532,7 @@ footer p {
     background: #1b1b1bbb;
     white-space: nowrap;
     padding: 1.2% 0;
-    position: relative;
+    position: relative;;
 }
 
 #logoSlider:before,
@@ -563,6 +563,7 @@ footer p {
 #logo-slide img {
     height: 69px;
     margin: 0 36px;
+    user-select: none;
 }
 
 /*************Présentation************/
